@@ -11,10 +11,12 @@ end
 
 def map_to_square (array)
 a = 0
-for (array[a])
+while (array[a])
 array[a] = array[a]**2
 
 end
+
+
 
 
   array
