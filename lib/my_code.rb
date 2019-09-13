@@ -35,9 +35,9 @@ def map_to_double (array)
     array
   end
 
-def map_to_total (array)
+def map_to_total (array, sp)
   a = 0
-  b =0
+  b = sp
   while (array[a]) do
   b = array[a]+ b
   array[a] = b
