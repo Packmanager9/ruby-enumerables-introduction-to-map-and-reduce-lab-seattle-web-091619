@@ -83,6 +83,22 @@ array
   end
 
 
+def reduce_to_any_true (array)
+  a = 0
+  b = 0
+  while (a < array.length) do
+ if array[a]
+return true
+end
+  a = a+1
+  end
+
+
+
+array
+  end
+
+
 def map_to_no_change (array)
 
 array
