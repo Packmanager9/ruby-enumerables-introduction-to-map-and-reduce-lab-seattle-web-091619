@@ -44,7 +44,14 @@ def map_to_double (array)
     array
   end
 
-def map_to_total (array, sp)
+  def MyOwnReduceLikeMethod (array)
+
+
+
+
+    end
+
+def reduce_to_total (array, sp)
   a = 0
   b = sp
   while (array[a]) do
