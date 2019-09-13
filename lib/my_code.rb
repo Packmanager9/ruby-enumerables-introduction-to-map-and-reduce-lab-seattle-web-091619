@@ -35,7 +35,34 @@ def map_to_double (array)
     array
   end
 
+def map_to_total (array)
+  a = 0
+  b =0
+  while (array[a]) do
+  b = array[a]+ b
+  a = a+1
+  end
+
+
+
+
+    array
+  end
+
+
 def map_to_no_change (array)
 
-  array
+array
+end
+
+
+def map_to_no_change (array)
+
+array
+end
+
+
+def map_to_no_change (array)
+
+array
 end
