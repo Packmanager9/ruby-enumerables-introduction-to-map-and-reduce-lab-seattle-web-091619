@@ -5,9 +5,18 @@ def map_to_no_change (array)
 end
 
 def map_to_negativize (array)
+  a = 0
+  while (array[a]) do
+  array[a] = array[a] * -1
+  a = a+1
+  end
 
-  array
-end
+
+
+
+    array
+  end
+
 
 def map_to_square (array)
 a = 0
