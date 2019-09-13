@@ -11,9 +11,9 @@ end
 
 def map_to_square (array)
 a = 0
-array.each do
+while (array[a]) do
 array[a] = array[a]**2
-a++
+a = a+1
 end
 
 
