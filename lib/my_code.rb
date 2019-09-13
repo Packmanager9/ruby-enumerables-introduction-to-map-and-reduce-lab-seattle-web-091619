@@ -51,7 +51,7 @@ def map_to_double (array)
 
     end
 
-def reduce_to_total (array, sp)
+def reduce_to_total (array, sp=0)
   a = 0
   b = sp
   while (array[a]) do
