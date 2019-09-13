@@ -40,13 +40,14 @@ def map_to_total (array)
   b =0
   while (array[a]) do
   b = array[a]+ b
+  array[a] = b
   a = a+1
   end
 
 
 
 
-    array
+    b
   end
 
 
