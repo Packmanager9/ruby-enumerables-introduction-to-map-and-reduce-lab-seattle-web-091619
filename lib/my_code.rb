@@ -67,10 +67,21 @@ def reduce_to_total (array)
   end
 
 
-def map_to_no_change (array)
-
-array
+def reduce_to_all_true (array)
+  a = 0
+  b = 0
+  while (array[a]) do
+ if !array[a] 
+return false
 end
+  a = a+1
+  end
+
+
+
+
+    b
+  end
 
 
 def map_to_no_change (array)
