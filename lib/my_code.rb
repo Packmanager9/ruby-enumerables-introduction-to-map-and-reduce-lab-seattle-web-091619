@@ -13,7 +13,7 @@ def map_to_square (array)
 a = 0
 while (array[a])
 array[a] = array[a]**2
-
+a++
 end
 
 
